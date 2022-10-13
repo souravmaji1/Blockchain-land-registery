@@ -8,12 +8,7 @@
 5. Flutter
 6. Metamask
 
-## Demo
-Demonstration video of our Dapp [here](https://youtu.be/0Coz_ivOaHs)
 
-## Run Application on deployed website
-Check deployed website [here](https://landregistry.live/)\
-https://landregistry.live/
 
 This is demo purpose. You can login as Land Inspector using this key:
  <pre><b>6b86cddfedbec68ed2a1c7e14b993840a0848595ba5787aec9e8a38b18f0d96a</b></pre>
