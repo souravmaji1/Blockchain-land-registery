@@ -71,7 +71,7 @@ Important :
 If you are unable to deploy smart contract using truffle then just follow the below steps
 
 1. go to remix ide by searching on google
-2. create a "example.sol" file and paste the smart contract code over there
+2. create a "example.sol" file and paste the (land smart contract ) code over there
 3. select the injected web3 option before deploying 
 4. choose any test network like polygon mumbai , goerli 
 5. then click on the deploy button to deploy the smart contract 
