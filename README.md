@@ -66,6 +66,8 @@ flutter run -d web-server --web-port 5555
 <<<<<<< HEAD
 =======
 
+12.you need to run the docker application in the background so that you can able to run the dapp locally
+
 
 
 Important :
