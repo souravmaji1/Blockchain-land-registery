@@ -8,12 +8,7 @@
 5. Flutter
 6. Metamask
 
-## Demo
-Demonstration video of our Dapp [here](https://youtu.be/0Coz_ivOaHs)
 
-## Run Application on deployed website
-Check deployed website [here](https://landregistry.live/)\
-https://landregistry.live/
 
 This is demo purpose. You can login as Land Inspector using this key:
  <pre><b>6b86cddfedbec68ed2a1c7e14b993840a0848595ba5787aec9e8a38b18f0d96a</b></pre>
@@ -25,6 +20,9 @@ For user you can also use your own Ethereum wallet key
 ## Run Application Locally
 1.Clone the github repository and cd to the folder\
 2.Install flutter,nodejs\
+
+* use flutter version 2.10.5 *
+
 3.Install ganache and truffle
 ```
 npm install -g truffle
@@ -65,34 +63,30 @@ flutter run -d web-server --web-port 5555
 9.Open the browser and the dapp will be running in http://localhost:5555/
 10.Create mapbox api key from https://www.mapbox.com/ and Replace it with 'mapBoxApiKey' constant.dart file\
 11.Create nftstorage api key from https://nft.storage/ and replace it.\
-## Project Flowchart
-<img src="screenshots/flowchart.png" height="450">
 
-## Screenshots
-Home Page                   |                   Wallet connect/Login
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot1.png" height="225">  |<img src="screenshots/Screenshot7.png" height="225">
 
-Contract Owner Dashboard               |                   User Registration
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot10.png" height="225">  |<img src="screenshots/Screenshot12.png" height="225">
 
-Land Inspector Dashboard                   |                  User Verification 
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot11.png" height="225">     |<img src="screenshots/Screenshot5.png" height="225">
+Important :
 
-User Dashboard               |                  Adding land on Map    
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot2.png" height="225">     |<img src="screenshots/Screenshot8.png" height="225">
+If you are unable to deploy smart contract using truffle then just follow the below steps
 
-Land Gallery                |                   Land Details    
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot3.png" height="225">     |<img src="screenshots/Screenshot9.png" height="225">
+1. go to remix ide by searching on google
+2. create a "example.sol" file and paste the (land smart contract ) code over there
+3. select the injected web3 option before deploying 
+4. choose any test network like polygon mumbai , goerli 
+5. then click on the deploy button to deploy the smart contract 
+6. copy the smart contract address 
+7. paste the smart contract address in the "lib/constants/constant.dart 
 
-Received Request           |                   Make Payment  
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot6.png" height="225">     |<img src="screenshots/Screenshot4.png" height="225">
+contract address : "jdsjdnsjdsjd"
 
-Transfer ownership,Seller,buyer photo capture   |                Witness info,photo capture,transfer ownership 
-:---------------------------------:        |      :------------------------------:
-<img src="screenshots/Screenshot14.png" height="225">     |<img src="screenshots/Screenshot13.png" height="225">
+replace the rpc url with that test network you have deployed also change the chain id in which testnetwork you have deployed
+
+That's all
+
+
+
+
+
+
+
