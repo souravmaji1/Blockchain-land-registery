@@ -93,35 +93,3 @@ That's all
 
 
 
-
-
-## Project Flowchart
-<img src="screenshots/flowchart.png" height="450">
->>>>>>> a62c27bbf532d7b851cefc4bef091c56553fbb1e
-
-
-
-Important :
-
-If you are unable to deploy smart contract using truffle then just follow the below steps
-
-1. go to remix ide by searching on google
-2. create a "example.sol" file and paste the (land smart contract ) code over there
-3. select the injected web3 option before deploying 
-4. choose any test network like polygon mumbai , goerli 
-5. then click on the deploy button to deploy the smart contract 
-6. copy the smart contract address 
-7. paste the smart contract address in the "lib/constants/constant.dart 
-
-contract address : "jdsjdnsjdsjd"
-
-replace the rpc url with that test network you have deployed also change the chain id in which testnetwork you have deployed
-
-That's all
-
-
-
-
-
-
-
